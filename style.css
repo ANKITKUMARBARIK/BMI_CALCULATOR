@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+}
+body{
+    height: 100vh;
+    background-color: black;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+form div{
+    margin: 20px;
+}
+
+form div input{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid aqua;
+    color: #212121;
+    background-color: gainsboro;
+}
+button{
+    color: #212121;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
+    cursor: pointer;
+}
+#bmi{
+    color: lightslategray;
+    line-height: 40px;
+}
